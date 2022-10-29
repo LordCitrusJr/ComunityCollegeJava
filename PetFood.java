@@ -27,17 +27,10 @@ public class PetFood
       // Display pricing for the selected grade.
       switch(foodGrade)
       {
-         case 'A':
-            System.out.println("30 cents per lb.");
-            break;
-         case 'B':
-            System.out.println("20 cents per lb.");
-            break;
-         case 'C':
-            System.out.println("15 cents per lb.");
-            break;
-         default:
-            System.out.println("Invalid choice.");
+         case 'A' -> System.out.println("30 cents per lb.");
+         case 'B' -> System.out.println("20 cents per lb.");
+         case 'C' -> System.out.println("15 cents per lb.");
+         default -> System.out.println("Invalid choice.");
       }
    }
 }
