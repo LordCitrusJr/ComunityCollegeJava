@@ -1,3 +1,5 @@
+// Converts an entered number to its Roman numeral.
+
 import java.util.Scanner;
 
 public class RomanNumerals
