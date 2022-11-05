@@ -1,0 +1,16 @@
+public class EnergyDrinkConsumption {
+    public static void main(String[] args)
+    {
+        int customersSurveyed = 12467;
+        double purchasesEnergyDrinks = 0.14;
+        double prefersCitrus = 0.64;
+
+        System.out.printf("""
+                        Out of %,d customers surveyed, %.0f%%, or %.0f of them
+                        purchased one or more energy drinks per week.
+                        
+                        Of those customers, %.0f%%, or %,.0f, preferred Citrus Flavor."""
+                ,customersSurveyed, purchasesEnergyDrinks * 100, customersSurveyed * purchasesEnergyDrinks,
+                prefersCitrus * 100, (customersSurveyed * purchasesEnergyDrinks) * prefersCitrus);
+    }
+}
